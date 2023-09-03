@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Warhammer 40k - Datasheet Creator</title>
+</head>
+
+<body>
+  <header>
+    <img id="warhammer_logo" src="images/warhammer_logo.jpg" alt="Warhammer Logo" />
+    <h1>Creador del Códice Astartes</h1>
+  </header>
+
+  <section id="welcome_section">
+    <div id="welcome_table">
+          <p id="motivational">
+            "Olvídense del poder de la tecnología y la ciencia, porque se ha hecho mucho
+            olvidado, para nunca volver a ser aprendido.
+            <br />Olvídese de la promesa de progreso y comprensión, porque en el
+            Un futuro sombrío y oscuro sólo hay guerra. <br />No hay paz
+            entre las estrellas, sólo una eternidad de matanzas y matanzas, y
+            la risa de los dioses sedientos.
+            <br/>
+            <br/>
+            <br/>
+            - Adeptus Mechanicus
+          </p>
+        <div id="image_section">
+          <img id="war_image" src="images/war_image_fondo.jpg" alt="Imperium war" />
+          <div class="blackimg"></div>
+        </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="character-form">
+      <h2>¡Crea nuevos Adeptus para el Dios Emperador!</h2>
+      <form id="character-form" novalidate>
+        <div class="form-container">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" required />
+
+          <label for="chapter">Capitulo:</label>
+          <select id="chapter">
+            <option>Marine Espacial</option>
+            <option>Adeptus Mechanicus</option>
+            <option>Adeptus Titanicus</option>
+            <option>Adeptus Custodius</option>
+          </select>
+
+          <label for="weapon">Arma:</label>
+          <select id="weapon">
+            <option>Cedazo</option>
+            <option>Espada de poder</option>
+            <option>Lanza misiles</option>
+            <option>Lanzallamas</option>
+          </select>
+
+          <button class="button" type="submit">Crear</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="character-list" class="section hidden">
+      <h2>Lista de Adeptos</h2>
+      <div class="list-container">
+        <ul id="characters">
+          <!-- List of characters will be populated here -->
+        </ul>
+      </div>
+      <button class="button" id="delete-all-button">¡EXTERMINADO!</button>
+    </section>
+
+    <section id="character-details">
+      <div id="details">
+        <!-- Character details will be displayed here -->
+      </div>
+    </section>
+  </main>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modal-message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
