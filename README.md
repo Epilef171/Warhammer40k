@@ -52,10 +52,10 @@ Utilice el botón "¡EXTERMINATUS!" Botón para eliminar todos los caracteres.
 
 ## Diseño
 
-![Diseño_página_web](imagenes/Diseño_1.png)
+![Diseño_página_web](imagenes/Diseño_pagina_web.png)
 
 ## Autor
 
-Este proyecto fue desarrollado por Jaime Felipe Posada.
+Este proyecto fue desarrollado por Jaime Felipe Posada (Fue desarrollado en la semana de ideaton en grupo pero cada uno le hizo sus propios arreglos aparte).
 
 ¡No dudes en comunicarte con cualquier pregunta o comentario!
