@@ -6,8 +6,8 @@ CRUD inspirado en el videojuego Warhammer 40k
 
 ## Tabla de contenido
 - [Introducción](#introducción)
-- [Funciones funciones)
-- [Comenzando](#empezando)
+- [Características](#características).
+- [Inicio](#inicio)
 - [Uso](#uso)
 - [Autor](#autor)
 - [Diseño](#diseño)
@@ -28,7 +28,7 @@ Edita y actualiza los detalles del personaje.
 - Alertas modales para diversas acciones.
 - Diseño responsive para móvil y escritorio.
 
-## Empezando
+## Inicio
 
 Para comenzar con este proyecto, siga estos pasos:
 
