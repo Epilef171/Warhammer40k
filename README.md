@@ -52,7 +52,7 @@ Utilice el botón "¡EXTERMINATUS!" Botón para eliminar todos los caracteres.
 
 ## Diseño
 
-![Diseño_página_web](imagenes/Diseño_pagina_web.png)
+![Diseño_página_web](images/Diseño_pagina_web.png)
 
 ## Autor
 
