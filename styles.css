@@ -60,7 +60,7 @@ header {
 #image_section {
   width: 90%;
   z-index: 1;
-  position: relative;  
+  position: relative;
 }
 
 
@@ -181,9 +181,6 @@ header {
   text-align: center;
 }
 
-#motivational,
-
-
 #motivational {
   width: 80%;
   font-size: 3.8rem;
@@ -193,13 +190,6 @@ header {
   z-index: 3;
   font-family: "Inquisitor", monospace;
   letter-spacing: 1px;
-}
-
-.blackimg {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.604);
-  position: absolute;
-  z-index: 2;
 }
 
 
@@ -302,40 +292,41 @@ iframe {
 }
 
 @media screen and (max-width: 1465px) {
-  #motivational{
+  #motivational {
     font-size: 3.4rem;
   }
 }
 
 @media screen and (max-width: 1360px) {
-  #motivational{
+  #motivational {
     font-size: 3.3rem;
   }
 }
 
 @media screen and (max-width: 1260px) {
-  #motivational{
+  #motivational {
     font-size: 3rem;
   }
 }
 
 @media screen and (max-width: 1160px) {
-  #motivational{
+  #motivational {
     font-size: 2.8rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  #motivational{
+  #motivational {
     font-size: 2.6rem;
   }
 }
 
 @media screen and (max-width: 1010px) {
-  #motivational{
+  #motivational {
     font-size: 2.4rem;
   }
 }
+
 @media screen and (max-width: 968px) {
   body {
     font-size: 16px;
@@ -354,7 +345,7 @@ iframe {
     flex-direction: column;
   }
 
-  #motivational{
+  #motivational {
     font-size: 2.2rem;
   }
 
