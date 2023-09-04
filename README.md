@@ -56,6 +56,6 @@ Utilice el botón "¡EXTERMINATUS!" Botón para eliminar todos los caracteres.
 
 ## Autor
 
-Este proyecto fue desarrollado por Carlos Paz Ortega y Jaime Felipe Posada.
+Este proyecto fue desarrollado por Jaime Felipe Posada.
 
 ¡No dudes en comunicarte con cualquier pregunta o comentario!
